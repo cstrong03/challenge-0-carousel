@@ -15,11 +15,17 @@
             <a href="./">Ainulindalë</a>
         </header>
         <section class="hero-image">
-            <div class="image" style="background-image: url(./images/hero-image-0.jpg)">
+            <div class="slideshow">
+            <div class="image" style="background-image: url(./images/hero-image-0.jpg)"></div>
+            <div class="image" style="background-image: url(./images/hero-image-1.jpg)"></div>
+            <div class="image" style="background-image: url(./images/hero-image-2.jpg)"></div>
+            <div class="image" style="background-image: url(./images/hero-image-3.jpg)"></div>
                 <h1>Ainulindalë</h1>
                 <h2>The Music of the Ainur</h2>
-            </div>
+          </div>
         </section>
+        <button onclick="plusDivs(+1)"class="prev">&#10094;</button>
+        <button onclick="plusDivs(-1)"class="next">&#10095;</button>
         <main>
         <blockquote cite="http://ae-lib.org.ua/texts-c/tolkien__the_silmarillion__en.htm#ainulindale">
             The Silmarillion, now published four years after the death of its author, is an
@@ -49,4 +55,3 @@
         <script src="./scripts/app.js"></script>
     </body>
 </html>
-

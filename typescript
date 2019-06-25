@@ -1,0 +1,55 @@
+Script started on Mon Jun 24 19:36:40 2019
+]7;file://Admins-MacBook-Air.local/Users/student_ga123/desktop/challenges/challenge-0-carousel[1m[7m%[27m[1m[0m                                                                                ]2;student_ga123@Admins-MacBook-Air]1;..ge-0-carousel]7;file://Admins-MacBook-Air.local/Users/student_ga123/desktop/challenges/challenge-0-carousel[0m[27m[24m[J[01;32m➜  [36mchallenge-0-carousel[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h ssc
+[0mSCREEN_NO        scandeps.pl      scp              [1;31mscripts[0m/       
+SCRIPT           scandeps5.18.pl  screen           scselect       
+sc_auth          sched            screencapture    scss           
+[Jsc_usage         [Jschemagen        [Jscript           [Jscutil         [J[4A[0m[27m[24m[39Csc[KSCREEN_NO[1m=[0m
+[7mSCREEN_NO      [0m  scandeps.pl      scp              [1;31mscripts[0m/       [K
+SCRIPT           scandeps5.18.pl  screen           scselect       [K
+sc_auth          sched            screencapture    scss           [K
+[Jsc_usage         [Jschemagen        [Jscript           [Jscutil         [J[4A[0m[27m[24m[39CSCREEN_NO[1m=[0m[K
+[7mSCREEN_NO      [0m  [7mSCREEN_NO      [0m  [A[0m[27m[24m[39CSCREEN_NO[1m=[0m[KIPT[1m=[0m  [0m 
+[0mSCREEN_NO        [1B[7mSCRIPT         [0m  [A[A[0m[27m[24m[39CSCRIPT[1m=[0m[Ksc_aut[0mh
+[1B[0mSCRIPT           [1B[7msc_auth        [0m  [3A[0m[27m[24m[39Csc_auth[Kusage
+[2B[0msc_auth          [1B[7msc_usage       [0m  [4A[0m[27m[24m[39Csc_usage[Kandeps.pl
+[17C[7mscandeps.pl    [0m  [3Bsc_usage         [4A[0m[27m[24m[39Cscandeps.pl[K5.18.pl
+[17C[0mscandeps.pl      [1B[17C[7mscandeps5.18.pl[0m  [A[A[0m[27m[24m[39Cscandeps5.18.pl[K[13Dhed          [10D
+[1B[17C[0mscandeps5.18.pl  [1B[17C[7msched          [0m  [3A[0m[27m[24m[39Csched[Kmagen
+[2B[17C[0msched            [1B[17C[7mschemagen      [0m  [4A[0m[27m[24m[39Cschemagen[Kp      
+[34C[7mscp            [0m  [3B[17Cschemagen        [4A[0m[27m[24m[39Cscp[Kreen
+[34C[0mscp              [1B[34C[7mscreen         [0m  [A[A[0m[27m[24m[39Cscreen[Kcapture
+[1B[34C[0mscreen           [1B[34C[7mscreencapture  [0m  [3A[0m[27m[24m[39Cscreencapture[K[10Dipt       
+[2B[34C[0mscreencapture    [1B[34C[7mscript         [0m  [4A[0m[27m[24m[39Cscript[Ks[1m/[0m
+[51C[7mscripts/       [0m[3B[34Cscript           [4A[0m[27m[24m[39Cscripts[1m/[0m[K
+[J[A[47C[0m [?1l>[?2004l
+[J]2;scripts]1;scripts[1m[7m%[27m[1m[0m                                                                                ]2;student_ga123@Admins-MacBook-Air]1;..ousel/scripts]7;file://Admins-MacBook-Air.local/Users/student_ga123/desktop/challenges/challenge-0-carousel/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hc nnode scripts.js          app.js[?1l>[?2004l
+]2;node app.js]1;node/Users/student_ga123/Desktop/challenges/challenge-0-carousel/scripts/app.js:13
+  }
+  ^
+
+SyntaxError: Unexpected token }
+    at Module._compile (internal/modules/cjs/loader.js:721:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:829:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+[1m[7m%[27m[1m[0m                                                                                ]2;student_ga123@Admins-MacBook-Air]1;..ousel/scripts]7;file://Admins-MacBook-Air.local/Users/student_ga123/desktop/challenges/challenge-0-carousel/scripts[0m[27m[24m[J[01;31m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hnode app.js[?1l>[?2004l
+]2;node app.js]1;node/Users/student_ga123/Desktop/challenges/challenge-0-carousel/scripts/app.js:4
+  let pic = document.getElementsByClassName('image')
+            ^
+
+ReferenceError: document is not defined
+    at carousel (/Users/student_ga123/Desktop/challenges/challenge-0-carousel/scripts/app.js:4:13)
+    at Object.<anonymous> (/Users/student_ga123/Desktop/challenges/challenge-0-carousel/scripts/app.js:13:1)
+    at Module._compile (internal/modules/cjs/loader.js:776:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:829:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+[1m[7m%[27m[1m[0m                                                                                ]2;student_ga123@Admins-MacBook-Air]1;..ousel/scripts]7;file://Admins-MacBook-Air.local/Users/student_ga123/desktop/challenges/challenge-0-carousel/scripts[0m[27m[24m[J[01;31m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h
